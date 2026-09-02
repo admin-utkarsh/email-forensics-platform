@@ -1,0 +1,36 @@
+Delivered-To: victim@company.com
+Received: by 10.55.31.15 with SMTP id j15csp1234567abc;
+        Mon, 1 Sep 2025 03:14:22 -0700 (PDT)
+Received: from mail-relay-203.suspicious-host.ru (mail-relay-203.suspicious-host.ru. [185.220.101.45])
+        by mx.company.com with ESMTPS id x9si1234567edb.100.2025.09.01.03.14.20
+        for <victim@company.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 01 Sep 2025 03:14:21 -0700 (PDT)
+Received: from internal-node-1.suspicious-host.ru (unknown [10.0.0.5])
+        by mail-relay-203.suspicious-host.ru with SMTP id abc123;
+        Mon, 01 Sep 2025 10:14:15 +0000 (UTC)
+Authentication-Results: mx.company.com;
+       spf=fail (google.com: domain of security@paypa1-secure.com does not designate 185.220.101.45 as permitted sender) smtp.mailfrom=security@paypa1-secure.com;
+       dkim=none;
+       dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=paypa1-secure.com
+Return-Path: <bounce@paypa1-secure.com>
+Reply-To: recovery-team@paypa1-secure.ru
+Message-ID: <a1b2c3d4@paypa1-secure.com>
+Date: Mon, 01 Sep 2025 10:14:00 +0000
+From: PayPal Security <security@paypa1-secure.com>
+To: victim@company.com
+Subject: Urgent: Your account will be suspended - verify immediately
+
+Content-Type: text/plain; charset="UTF-8"
+
+Dear customer,
+
+We detected unusual activity on your account. Your account will be suspended within 24 hours unless you verify your identity immediately.
+
+Click here to verify: http://185.220.101.45/paypal-verify/login.php
+Or use this shortened link: http://bit.ly/pp-verify-now
+
+Kindly confirm your identity as soon as possible to avoid permanent suspension.
+
+Regards,
+PayPal Security Team

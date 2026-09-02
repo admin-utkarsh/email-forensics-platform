@@ -1,0 +1,23 @@
+Received: from mail.company.com (mail.company.com [203.0.113.10])
+        by mx.company.com with ESMTPS id y1si9876543edb.50.2025.09.01.09.00.00
+        for <you@company.com>;
+        Mon, 01 Sep 2025 09:00:00 -0700 (PDT)
+Authentication-Results: mx.company.com;
+       spf=pass smtp.mailfrom=colleague@company.com;
+       dkim=pass header.d=company.com;
+       dmarc=pass header.from=company.com
+Return-Path: <colleague@company.com>
+Message-ID: <xyz789@company.com>
+Date: Mon, 01 Sep 2025 09:00:00 -0700
+From: Priya Sharma <colleague@company.com>
+To: you@company.com
+Subject: Quarterly report draft
+
+Content-Type: text/plain; charset="UTF-8"
+
+Hi team,
+
+Attaching the quarterly report for your review. Let me know if you have any questions before Thursday's sync.
+
+Thanks,
+Priya

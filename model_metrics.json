@@ -1,0 +1,37 @@
+{
+    "dataset": "datasets\\raw\\phishing_legit_dataset_KD_10000.csv",
+    "dataset_size": 9956,
+    "train_size": 7964,
+    "test_size": 1992,
+    "label_distribution": {
+        "1": 6000,
+        "0": 3956
+    },
+    "model": "LogisticRegression",
+    "vectorizer": {
+        "type": "TF-IDF",
+        "ngram_range": [
+            1,
+            2
+        ],
+        "max_features": 30000,
+        "min_df": 2
+    },
+    "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+    },
+    "confusion_matrix": [
+        [
+            792,
+            0
+        ],
+        [
+            0,
+            1200
+        ]
+    ]
+}
